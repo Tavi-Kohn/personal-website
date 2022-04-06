@@ -1,19 +1,17 @@
-import * as React from "react"
-import { MDXRenderer } from "gatsby-plugin-mdx"
-import { Style } from "util"
+import * as React from "react";
 
 const mainStyle: React.CSSProperties = {
-  display: "grid",
-  gridTemplateRows: "auto",
-  // font
-}
+  fontFamily: "Barlow, Cabin, Atkinson Hyperlegible",
+};
 
 const IndexPage = () => {
   return (
     <main style={mainStyle}>
-      <h1>Tavi Kohn</h1>
+      <h1>
+        Tavi Kohn
+      </h1>
     </main>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
