@@ -18,6 +18,7 @@ const config: GatsbyConfig = {
       },
     },
     "gatsby-plugin-mdx",
+    "gatsby-plugin-mantine",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
@@ -40,7 +41,7 @@ const config: GatsbyConfig = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Atkinson Hyperlegible:100,400,700", "Cabin:100,400,700", "Barlow:100,400,700"],
+          families: ["Atkinson Hyperlegible:100,400,700", "Cabin:100,400,700", "Barlow:100,400,700", "Bitter:100,400,700", "Fire Code:100,400,700"],
         },
       },
     },
